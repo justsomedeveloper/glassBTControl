@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ilikedesi.pierce.glassbtcontrol" >
 
-    <uses-permission android:name="com.google.android.glass.permission.DEVELOPMENT"/>
+    <uses-permission android:name="com.google.android.glass.permission.DEVELOPMENT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
 
     <application
         android:allowBackup="true"
@@ -21,12 +23,25 @@
                 android:name="com.google.android.glass.VoiceTrigger"
                 android:resource="@xml/voice_trigger" />
         </activity>
-        <activity android:name="com.ilikedesi.pierce.glassbtcontrol.activities.PresentationActivity"
-                    android:label="@string/app_name"
-            />
-        <activity android:name="com.ilikedesi.pierce.glassbtcontrol.activities.BluetoothConnActivity"
-            android:label="@string/app_name"
-            />
-            </application>
+        <activity
+            android:name="com.ilikedesi.pierce.glassbtcontrol.activities.PresentationActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.ilikedesi.pierce.glassbtcontrol.activities.BluetoothConnActivity"
+            android:label="Bluetooth activity" />
+        <activity
+            android:name="com.ilikedesi.pierce.glassbtcontrol.activities.BleDevicesActivity"
+            android:label="Bluetooth scan" />
+        <activity
+            android:name="com.ilikedesi.pierce.glassbtcontrol.activities.BleServicesActivity"
+            android:label="Bluetooth services" />
+        <activity
+            android:name="com.ilikedesi.pierce.glassbtcontrol.activities.PairDevicesActivity"
+            android:label="Bluetooth Pair Devices" />
+        <activity
+            android:name="com.ilikedesi.pierce.glassbtcontrol.activities.PairedDevicesListActivity"
+            android:label="Bluetooth Paired Devices" >
+        </activity>
+    </application>
 
 </manifest>

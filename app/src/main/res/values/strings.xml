@@ -11,12 +11,34 @@
     <string name="msg_tap_to_menu">Please tap to launch "menu"</string>
     <string name="msg_bt_connection">Bluetooth connection activity</string>
     <string name="msg_start_presentation">start presentation activity</string>
+    <string name="msg_unpair">Un-Pair Devices</string>
+    <string name="msg_pair">Pair Devices</string>
+    <string name="msg_show_paired">Show Paired Devices</string>
+    <string name="msg_scan">Scan for devices</string>
+    <string name="connect">Connect</string>
+    <string name="rssi_value">%1$ddb</string>
+    <string name="ble_service_type">type %1$d</string>
+    <string name="show_values">Show values</string>
+    <string name="read_value">Read value</string>
+
+    <plurals name="ble_service_count_charas">
+        <item quantity="one">%1$d characteristic</item>
+        <item quantity="other">%1$d characteristics</item>
+    </plurals>
+    <plurals name="numberOfPairedDevices">
+        <item quantity="one">One device paired.</item>
+        <item quantity="other">%d devices paired.</item>
+    </plurals>
 
     <!-- Menu Items -->
     <string name="action_btconnection">Bluetooth Connections</string>
     <string name="action_presentation">Start Presentation</string>
     <string name="action_quit">Quit</string>
-
-
+    <string name="action_pair">Pair Devices</string>
+    <string name="action_unpair">Un-Pair</string>
+    <string name="action_paired">Paired Devices</string>
+    <string name="title_activity_ble_scan">BleScanActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
