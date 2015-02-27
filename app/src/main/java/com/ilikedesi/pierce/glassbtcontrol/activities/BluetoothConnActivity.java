@@ -11,6 +11,6 @@ public class BluetoothConnActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(res.layout);
+        setContentView(R.layout.activity_bluetoothconn);
     }
 }

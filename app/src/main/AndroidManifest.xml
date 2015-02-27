@@ -2,13 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ilikedesi.pierce.glassbtcontrol" >
 
+    <uses-permission android:name="com.google.android.glass.permission.DEVELOPMENT"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.ilikedesi.pierce.glassbtcontrol.BTConnections"
+            android:name="com.ilikedesi.pierce.glassbtcontrol.activities.MainActivity"
             android:icon="@drawable/ic_glass_logo"
             android:label="@string/title_activity_btconnections" >
             <intent-filter>
@@ -19,6 +21,12 @@
                 android:name="com.google.android.glass.VoiceTrigger"
                 android:resource="@xml/voice_trigger" />
         </activity>
-    </application>
+        <activity android:name="com.ilikedesi.pierce.glassbtcontrol.activities.PresentationActivity"
+                    android:label="@string/app_name"
+            />
+        <activity android:name="com.ilikedesi.pierce.glassbtcontrol.activities.BluetoothConnActivity"
+            android:label="@string/app_name"
+            />
+            </application>
 
 </manifest>
