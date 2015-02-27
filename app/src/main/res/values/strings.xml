@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Glass BT controller</string>
+    <string name="title_activity_btconnections">Get Bluetooth connections</string>
+
+    <!-- App Start Voice command -->
+    <string name="start_command">Menus</string>
+
+    <!-- view messages -->
+    <string name="msg_tap_to_menu">Please tap to launch "menu"</string>
+    <string name="msg_bt_connection">Bluetooth connection activity</string>
+    <string name="msg_start_presentation">start presentation activity</string>
+
+    <!-- Menu Items -->
+    <string name="action_btconnection">Bluetooth Connections</string>
+    <string name="action_presentation">Start Presentation</string>
+    <string name="action_quit">Quit</string>
+
+
+
+</resources>
